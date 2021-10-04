@@ -10,6 +10,25 @@
 * 	Template Style 
 *
 * ======================================================= */
+@keyframes Border-animation{
+  0%{border-radius: 50% 50% 50% 50% / 26% 50% 50% 74% }
+  20%{border-radius: 80% 20% 50% 50% / 26% 50% 50% 74% }
+  40%{border-radius: 86% 14% 47% 53% / 26% 77% 23% 74% }
+  60%{border-radius: 60% 40% 72% 28% / 45% 77% 23% 55% }
+  80%{border-radius: 33% 67% 50% 50% / 45% 46% 54% 55% }
+  100%{border-radius:15% 85% 36% 64% / 58% 21% 79% 42% }
+}
+.profile-thumb{
+  
+
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+  animation-name: Border-animation;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
 body {
   font-family: "Space Mono", Arial, serif;
   font-weight: 400;
